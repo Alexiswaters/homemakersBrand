@@ -1,0 +1,715 @@
+{
+  "120NightGuarantee": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "account": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "add": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "addCalendar": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "addCircle": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "addFavorite": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "addLocationMarker": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "addPaymentMethod": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "addToCart": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "adjustableBaseFriendly": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "arrowBlock": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "arrowDown": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "arrowLeft": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "arrowRight": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "arrowUp": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "bedroomDesser": [
+    "xxxl"
+  ],
+  "bedroomDresser": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "business": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "calendar": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "camera": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "cart": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "checkmark": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "checkmarkCircle": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "checkmarkCircleSemantic": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "chevronDown": [
+    "xxxl",
+    "xl",
+    "l",
+    "m",
+    "s",
+    "xs"
+  ],
+  "chevronLeft": [
+    "xxxl",
+    "xl",
+    "l",
+    "m",
+    "s",
+    "xs"
+  ],
+  "chevronRight": [
+    "xxxl",
+    "xl",
+    "l",
+    "m",
+    "s",
+    "xs"
+  ],
+  "chevronUp": [
+    "xxxl",
+    "xl",
+    "l",
+    "m",
+    "s",
+    "xs"
+  ],
+  "close": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "closeCircle": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "coilSupport": [
+    "xxxl",
+    "xl"
+  ],
+  "cookie": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "creditCard": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "customerAssembly": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "customerAssemblyRequired": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "customerAssemblyRequiredSemantic": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "customerAssemblyRequiredl": [
+    "xl"
+  ],
+  "customerService": [
+    "xxxl",
+    "xl"
+  ],
+  "customize": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "dashboard": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "delete": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "delivery": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "depth": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "diningChair": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "download": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "dropship": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "edit": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "editLocationMarker": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "email": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "error": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "extraFirm": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "extraPlush": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "favorite": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "firm": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "flower": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "foamSupport": [
+    "xxxl",
+    "xl"
+  ],
+  "gears": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "giftCard": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "giveaway": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "givewaway": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "height": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "help": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "homeDecorLamp": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "homeOfficeDesk": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "houseCamera": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "hybridSupport": [
+    "xxxl",
+    "xl"
+  ],
+  "kitchenPantry": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "livingRoomConsole": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "livingRoomLoveseat": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "livingRoomRecliner": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "livingRoomSofa": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "livingRoomStiltedDresser": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "locationMarker": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "locked": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "magnify": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "mattress": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "mattressCoil": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "mattressCooling": [
+    "xxxl",
+    "xl"
+  ],
+  "mattressFirmnessExtraFirm": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressFirmnessExtraPlush": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressFirmnessFirm": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressFirmnessMedium": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressFirmnessPlush": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressFull": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressInABox": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "mattressKing": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressQueen": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressTwin": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressTwinXl": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "mattressUpcycle": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "medium": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "megaphone": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "menu": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "news": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "orderHistory": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "outdoorBeach": [
+    "xxxl",
+    "xl"
+  ],
+  "payMyBill": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "paymentMethod": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "phone": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "phoneSocial": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "plush": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "priceTag": [
+    "xxxl",
+    "xl"
+  ],
+  "recentlyViewed": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "search": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "share": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "shield": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "shiftingGears": [
+    "xxxl",
+    "xl",
+    "m"
+  ],
+  "shoppingBag": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "signOut": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "sleep": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "snowflake": [
+    "xxxl",
+    "xl",
+    "l"
+  ],
+  "star": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "subtract": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "subtractCircle": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "sun": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "support": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "swatches": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "team": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "unlocked": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "upload": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "usa": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "voteLike": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "weight": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "width": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ]
+}

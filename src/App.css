@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: lato, sans-serif;
+  background-color: #fffefc;
 }
 
 .App-logo {
@@ -36,3 +38,679 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #FFFEFC;
+}
+
+.container {
+    max-width: 1920px; /* Set a max width for the container */
+    margin: auto; /* Center the container */
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: stretch; /* Align items to the start */
+    font-family: lato, sans-serif;
+    background-color: #fffefc;
+}
+
+/* Styles for the icon card component */
+.icon-card {
+  width: 100%;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.3s;
+  border: 1.5px solid #F8D4D2;
+  border-radius: 5px;
+  flex: 0 1 360px;
+  background-color: rgba(255, 254, 252, 0.9); /* 70% transparent background */
+  backdrop-filter: blur(5px); /* Add blur effect */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  box-shadow: 0 2px 5px rgba(224, 81, 73, 0.2); /* Red-tinged shadow */
+  min-height: 260px;
+  display: flex;
+  opacity: 0;
+}
+
+.icon-card:hover {
+  border-color: #252323;
+  box-shadow: 0px 25px 50px 0px rgba(224, 81, 73, 0.3);
+  z-index: 1;
+}
+
+/* Styles for the image container */
+.icon-image-container {
+  display: flex;
+  height: 172px;
+  padding: 18px;
+  margin: 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  align-self: stretch;
+}
+
+/* Styles for the icon image */
+.icon-image {
+    max-width: 250%; /* Scale the image for display */
+    height: auto; /* Maintain aspect ratio */
+    transform: scale(3); /* Scale the SVG for display */
+    transform-origin: center; /* Ensure scaling is centered */
+}
+
+/* Styles for the button container */
+.style-container {
+  display: flex;
+  padding: 15px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+    
+}
+
+/* Styles for the button option */
+.button-style {
+    flex: 0; /* Allow equal space for each button */
+    display: flex;
+    min-width: max-content;
+    justify-content: center; /* Center the content */
+}
+
+/* Styles for the color selection section */
+.color-selection {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 1rem; /* Space below the color selection */
+}
+
+/* Styles for the color options */
+.color-options {
+    display: flex; /* Use flexbox layout */
+    gap: 10px; /* Space between options */
+    justify-content: flex-start; /* Align options to the left */
+    flex-grow: inherit;
+    margin-top: 11px;
+    margin-bottom: 11px; /* Space below the color options */
+}
+
+/* Styles for each color option */
+.color-option {
+    flex: 1; /* Allow equal space for each option */
+}
+
+/* Styles for the size selection section */
+.size-selection {
+    display: flex; /* Use flexbox layout */
+    font-size: small;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 1rem; /* Space below the size selection */
+}
+
+/* Styles for the size options */
+.size-options {
+    display: flex; /* Use flexbox layout */
+    gap: 10px; /* Space between options */
+    justify-content: flex-start; /* Align options to the left */
+}
+
+/* Styles for each size option */
+.size-option {
+    flex: 1; /* Allow equal space for each option */
+}
+
+
+/* Styles for the button icon */
+.button-icon {
+    width: auto; /* Set width for the icon */
+    height: auto; /* Set height for the icon */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Styles for the selected button state */
+.selected {
+    background-color: #e05149; /* Background color for selected */
+    color: white; /* Text color for selected */
+}
+
+/* Additional button styles */
+.button {
+    display: flex;
+    font-family: 'Fira Mono', monospace;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border-top: 1px solid #F8D4D2;
+    border-bottom: none;
+    border-left: 1.5px #FFFEFC;
+    border-right: none;
+    padding: 10px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color border 0.3s;
+    background-color: #fffefc;
+    color: #726d6d;
+    text-decoration: none;
+    margin: 0;
+}
+
+.button:hover {
+    background-color: #e05149; /* Change background on hover */
+    color: white; /* Change text color on hover */
+    border-top: 1.5px solid #252323;
+}
+
+/* Add this new rule for the icon swap on hover */
+.button:hover .button-icon {
+    content: url("https://cdn.homemakers.com/download-xl-white.svg");
+}
+
+h1 {
+    text-align: left;
+    font-size: clamp(2.25rem, 2vw + 3rem, 8rem);
+    line-height: 110%;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: Bitter, serif;
+}
+
+.list {
+  font-size: 1rem;
+  color: #252323;
+  list-style-position: inside; /* Ensure bullets are inside the list */
+  line-height: 150%;
+  padding-left: 0; /* Remove default padding */
+  margin-left: 0; /* Remove default margin */
+}
+
+/* If you want a small indent but not as large as the default */
+.list li {
+  padding-left: 10px; /* Adjust this value to control the indent */
+  text-indent: -10px; /* This creates a hanging indent for the bullet */
+  margin-left: 10px; /* Small left margin */
+}
+
+p {
+  max-width: 40vw;
+  line-height: 150%;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #252323;
+  margin-bottom: 1vh;
+}
+.instructions{
+  margin:54px;
+  display: flexbox;
+  font-family: lato, sans-serif;
+
+}
+.grid {
+    margin-top: 28px; /* Remove any top margin on the grid */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    gap: 11px;
+    width: 100%;
+}
+
+
+/* Styles for the download link on hover */
+.download-link:hover {
+    background-color: #c0403a; /* Darker shade on hover */
+}
+
+/* Styles for the custom radio button */
+.custom-radio {
+    display: inline-flex; /* Make it behave like a button */
+    padding-bottom: 8px;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 12px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1.5px solid #fffefc; /* Default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+    background-color: #fffefc;
+    margin: 5px; /* Space between options */
+    text-align: center; /* Center text */
+    font-family: 'Fira Mono', monospace;
+}
+
+/* Styles for the selected state */
+.custom-radio.selected {
+    background-color: #f3f1f1; /* Background color for selected */
+    color: #252323; /* Text color for selected */
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    border: 1.5px solid #F8D4D2; /* Updated from e0e0e0 */
+}
+
+/* Hide the default radio buttons */
+.hidden {
+    display: none; /* Hide the radio buttons */
+}
+
+@media (max-width: 390px) {
+    .grid {
+        flex-direction: column; /* Change to one column layout */
+        margin: 18px; /* Set margin to 18px */
+        padding:18px;
+    }
+}
+
+/* Update the download-button-container to stay within card boundaries */
+.download-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+/* Remove all borders from download buttons */
+.download-button-container .button {
+    border: none;
+    border-top: 1px solid #F8D4D2;
+}
+
+/* First button (PNG) */
+.download-button-container .button:nth-child(1) {
+    border-right: 1.5px solid #F8D4D2;
+    border-bottom-left-radius: 7px;
+}
+
+.download-button-container .button:nth-child(1):hover {
+  border-right: 1.5px solid #e0e0e0;
+  border-right: 1.5px solid #252323;
+  border-bottom-left-radius: 0px;
+  overflow: visible;
+}
+
+/* Second button (SVG) */
+.download-button-container .button:nth-child(2) {
+    border-right: 1.5px solid #F8D4D2;
+}
+.download-button-container .button:nth-child(2):hover {
+  border-right: 1.5px solid #252323;
+  border-top: 1.5px solid #252323;
+  border-left: 1.5px solid #252323;
+}
+/* Third button (JPG) */
+.download-button-container .button:nth-child(3) {
+    border-bottom-right-radius: 3px;
+}
+.download-button-container .button:nth-child(3):hover {
+  border-bottom-right-radius: 3px;
+  border-top: 1.5px solid #252323;
+  border-left: 1.5px solid #252323;
+}
+
+/* Hover state for all buttons */
+.download-button-container .button:hover {
+    background-color: #e05149;
+    color: white;
+    border-radius: 0px;
+    border-top: 1.5px solid #252323;
+}
+
+/* Style controls container - main container for style and color options */
+.style-controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  margin-bottom: 0;
+  border-top: 1.5px solid #F8D4D2;
+  border-bottom: none;
+}
+
+/* Style for both style-container and color-container */
+.style-container {
+  display: flex;
+  flex: 1;
+  padding: 11px;
+  border-right: 1.5px solid #F8D4D2;
+}
+.color-container {
+  display: flex;
+  flex: 1;
+  padding: 11px;
+}
+
+/* Remove border from the last container */
+.color-container {
+  border-right: none;
+}
+
+/* Style for option buttons in both containers */
+.option-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+
+/* Remove margin from custom-radio in the controls container */
+.style-controls-container .custom-radio {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Class to apply when card is visible */
+.icon-card.animate {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Add a general rule for all text in icon cards */
+.icon-card, 
+.icon-card * {
+  font-family: 'Fira Mono', monospace;
+}
+
+/* Icon title styling */
+.icon-title {
+  font-size: .9rem;
+  font-family: 'Fira Mono', monospace;
+  padding: 0 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #252323;
+  font-weight: 500;
+}
+
+/* Enhanced styling for sort and search container */
+.sort-and-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px; /* Equal padding for the entire container */
+    background-color: transparent; /* Start with transparent background */
+    backdrop-filter: none; /* No blur initially */
+    -webkit-backdrop-filter: none; /* No blur initially for Safari */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    animation: fadeInUp 0.6s ease forwards;
+    margin-bottom: 0;
+    font-family: 'Fira Mono', monospace;
+    box-sizing: border-box;
+    margin-left: 0;
+    gap: 11px;
+    margin-right: auto;
+    border-radius: 5px; /* Added border radius */
+    box-shadow: none; /* No shadow initially */
+    transition: background-color 0.3s, backdrop-filter 0.3s, box-shadow 0.3s, padding 0.3s; /* Added padding transition */
+}
+
+/* Style for when the search container is sticky */
+.sort-and-search-container.sticky {
+    background-color: rgba(255, 254, 252, 0.7); /* 70% transparent background when sticky */
+    backdrop-filter: blur(10px); /* Add blur effect when sticky */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    box-shadow: 0 4px 12px rgba(224, 81, 73, 0.2); /* Red-tinged drop shadow when sticky */
+    padding: 10px; /* Change padding when sticky */
+}
+
+/* Style for the search input wrapper to ensure proper positioning */
+.search-input-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Enhanced styling for search input without background image */
+.search-input {
+    flex: 1;
+    width: 100%;
+    padding: 15px; /* Increased padding for larger search bar */
+    margin-right: 15px; /* Adjust margin if needed */
+    border: 1.5px solid #F8D4D2;
+    border-radius: 5px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.9rem;
+    color: #252323;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: rgba(255, 254, 252, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* When the search input is focused */
+.search-input:focus {
+    outline: none;
+    border-color: #e05149;
+    box-shadow: 0 0 0 2px rgba(224, 81, 73, 0.1);
+}
+
+/* When hovering over the search input, subtly highlight it */
+.search-input:hover {
+    border-color: #c4c4c4;
+}
+
+.search-input::placeholder {
+    color: #726d6d;
+    opacity: 0.7;
+}
+
+/* Enhanced styling for sort select */
+.sort-select {
+    padding: 15px; /* Equal padding for the sort select */
+    border: 1.5px solid #F8D4D2;
+    border-radius: 5px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 0.9rem;
+    color: #252323;
+    background-color: rgba(255, 254, 252, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    appearance: none; /* Remove default arrow */
+    background-image: url('https://cdn.homemakers.com/chevron-down-m.svg'); /* Add your dropdown arrow icon URL */
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 18px;
+    padding-right: 40px; /* Space for the dropdown arrow */
+}
+
+.sort-select:focus {
+    outline: none;
+    border-color: #e05149;
+    box-shadow: 0 0 0 2px rgba(224, 81, 73, 0.1);
+}
+
+/* Style for the select options */
+.sort-select option {
+    font-family: 'Fira Mono', monospace;
+    padding: 10px;
+}
+
+/* Ensure the grid and sort-and-search container have the same effective width */
+.grid, .sort-and-search-container {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Make sure the sort-and-search container is never wider than the grid */
+@media (min-width: 1200px) {
+    .grid, .sort-and-search-container {
+        max-width: calc(100% - 30px); /* Adjust based on your grid's margin/padding */
+    }
+}
+
+/* For even larger screens, cap the maximum width */
+@media (min-width: 1600px) {
+    .grid, .sort-and-search-container {
+        max-width: 1570px; /* Or whatever maximum width you want */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .sort-and-search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* Ensure the grid and sort-and-search container have the same effective width */
+.grid, .sort-and-search-container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.icons-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* Animated background blobs */
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0.12; /* Increased opacity for better visibility */
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.9;
+  background: #e05149;
+  animation: blob-movement 25s infinite alternate ease-in-out;
+}
+
+.blob:nth-child(1) {
+  width: 800px; /* Increased size */
+  height: 800px;
+  top: -200px;
+  left: -100px;
+  animation-delay: 0s;
+}
+
+.blob:nth-child(2) {
+  width: 1000px; /* Increased size */
+  height: 1000px;
+  top: 60%;
+  right: -300px;
+  animation-delay: -5s;
+  animation-duration: 30s;
+}
+
+.blob:nth-child(3) {
+  width: 700px; /* Increased size */
+  height: 700px;
+  bottom: 5%;
+  left: 30%;
+  animation-delay: -10s;
+  animation-duration: 22s;
+}
+
+@keyframes blob-movement {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(80px, 40px) scale(1.1); /* Increased movement */
+  }
+  66% {
+    transform: translate(-60px, 60px) scale(0.9); /* Increased movement */
+  }
+  100% {
+    transform: translate(40px, -50px) scale(1.05); /* Increased movement */
+  }
+}
+
+.text-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.icon-count {
+    font-size: 0.9rem; /* Adjust font size */
+    color: #252323; /* Text color */
+}
+
+h4{
+  font-family: fria mono, monospace;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(200px, 1fr)); /* Responsive grid */
+    grid-template-rows: auto 1fr; /* Allow rows to grow equally */
+    gap: 20px;
+    max-width: 25vw; /* Set max width to 25% of the viewport width */
+}
+
+.icon {
+    display: flex; /* Change to flex to allow items to grow */
+    flex-direction: column; /* Allow the icon cards to hug their content */
+    align-items: center;
+    border: 2px solid transparent;
+    padding: 10px;
+    background-color: #fff; /* Background color for the icon div */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    height: 100%; /* Allow the icon card to take full height of the grid cell */
+}
+
+/* Add this to your existing CSS file */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly above */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End at original position */
+    }
+}
+
+.animated-entrance {
+    animation: fadeIn 0.5s ease-inout; /* Adjust duration and easing as needed */
+}
+
