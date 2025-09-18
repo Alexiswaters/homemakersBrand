@@ -120,6 +120,7 @@ const App = () => {
         { name: 'unlocked', dateAdded: '2023-05-23' },
         { name: 'share', dateAdded: '2023-05-26' },
         { name: 'edit', dateAdded: '2023-05-27' },
+        { name: 'link', dateAdded: '2025-09-18' },
         // Add more icons as needed
     ], []);
 
