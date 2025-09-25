@@ -121,6 +121,8 @@ const App = () => {
         { name: 'share', dateAdded: '2023-05-26' },
         { name: 'edit', dateAdded: '2023-05-27' },
         { name: 'link', dateAdded: '2025-09-18' },
+        { name: 'escalator', dateAdded: '2025-09-25' },
+        { name: 'elevatorButtons', dateAdded: '2025-09-25' },
         // Add more icons as needed
     ], []);
 
