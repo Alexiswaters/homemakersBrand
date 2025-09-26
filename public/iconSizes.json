@@ -284,6 +284,12 @@
     "l",
     "m"
   ],
+  "elevatorButtons": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
   "email": [
     "xxxl",
     "xl",
@@ -291,6 +297,12 @@
     "m"
   ],
   "error": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "escalator": [
     "xxxl",
     "xl",
     "l",
