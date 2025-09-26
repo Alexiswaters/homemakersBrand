@@ -364,6 +364,12 @@
     "l",
     "m"
   ],
+  "groundCoffee": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
   "height": [
     "xxxl",
     "xl",
@@ -599,6 +605,12 @@
   "priceTag": [
     "xxxl",
     "xl"
+  ],
+  "printer": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
   ],
   "recentlyViewed": [
     "xxxl",

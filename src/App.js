@@ -123,6 +123,8 @@ const App = () => {
         { name: 'link', dateAdded: '2025-09-18' },
         { name: 'escalator', dateAdded: '2025-09-25' },
         { name: 'elevatorButtons', dateAdded: '2025-09-25' },
+        { name: 'printer', dateAdded: '2025-09-26' },
+        { name: 'groundCoffee', dateAdded: '2025-09-26' },
         // Add more icons as needed
     ], []);
 
