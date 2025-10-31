@@ -125,6 +125,7 @@ const App = () => {
         { name: 'elevatorButtons', dateAdded: '2025-09-25' },
         { name: 'printer', dateAdded: '2025-09-26' },
         { name: 'groundCoffee', dateAdded: '2025-09-26' },
+        { name: 'powered', dateAdded: '2025-10-31' },
         // Add more icons as needed
     ], []);
 
