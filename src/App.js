@@ -126,6 +126,9 @@ const App = () => {
         { name: 'printer', dateAdded: '2025-09-26' },
         { name: 'groundCoffee', dateAdded: '2025-09-26' },
         { name: 'powered', dateAdded: '2025-10-31' },
+        { name: 'wirelessCharging', dateAdded: '2025-11-4' },
+        { name: 'usb', dateAdded: '2025-11-4' },
+        { name: 'zeroGravity', dateAdded: '2025-11-4' },
         // Add more icons as needed
     ], []);
 

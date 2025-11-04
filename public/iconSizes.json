@@ -730,6 +730,12 @@
     "l",
     "m"
   ],
+  "usb": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
   "voteLike": [
     "xxxl",
     "xl",
@@ -743,6 +749,18 @@
     "m"
   ],
   "width": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "wirelessCharging": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "zeroGravity": [
     "xxxl",
     "xl",
     "l",
