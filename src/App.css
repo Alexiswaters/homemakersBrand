@@ -81,7 +81,7 @@ body{
 /* Styles for the image container */
 .icon-image-container {
   display: flex;
-  height: 172px;
+  min-height: 172px;
   padding: 18px;
   margin: 18px;
   justify-content: center;
