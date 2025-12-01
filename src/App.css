@@ -82,6 +82,7 @@ body{
 .icon-image-container {
   display: flex;
   min-height: 172px;
+  max-height: 100%;
   padding: 18px;
   margin: 18px;
   justify-content: center;
