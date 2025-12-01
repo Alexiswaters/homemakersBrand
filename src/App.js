@@ -129,6 +129,9 @@ const App = () => {
         { name: 'wirelessCharging', dateAdded: '2025-11-4' },
         { name: 'usb', dateAdded: '2025-11-4' },
         { name: 'zeroGravity', dateAdded: '2025-11-4' },
+        { name: 'heatMassage', dateAdded: '2025-12-1' },
+        { name: 'heat', dateAdded: '2025-12-1' },
+        { name: 'dropDownTray', dateAdded: '2025-12-1' },
         // Add more icons as needed
     ], []);
 

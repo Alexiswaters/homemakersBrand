@@ -266,6 +266,9 @@
     "l",
     "m"
   ],
+  "dropDownTray": [
+    "xxxl"
+  ],
   "dropship": [
     "xxxl",
     "xl",
@@ -369,6 +372,16 @@
     "xl",
     "l",
     "m"
+  ],
+  "heat": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "heatMassage": [
+    "xxxl",
+    "xl"
   ],
   "height": [
     "xxxl",
@@ -669,6 +682,12 @@
     "xxxl",
     "xl",
     "l"
+  ],
+  "sparkle": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
   ],
   "star": [
     "xxxl",
