@@ -250,10 +250,10 @@ h3{
 
 }
 .grid {
-    margin-top: 28px; /* Remove any top margin on the grid */
+    margin-top: 28px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: stretch;
+    justify-content: space-between;
     gap: 11px;
     width: 100%;
 }
