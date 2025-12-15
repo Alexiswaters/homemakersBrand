@@ -65,8 +65,8 @@ body{
   transition: transform 0.2s, box-shadow 0.3s;
   border: 1.5px solid #F8D4D2;
   border-radius: 5px;
-  flex: .75 1 360px;
-  background-color: #f0ebe6c8 /* 70% transparent background */
+  flex: 1 1 360px;
+  background-color: #f0ebe6c8; /* 70% transparent background */
   backdrop-filter: blur(5px); /* Add blur effect */
   -webkit-backdrop-filter: blur(5px); /* For Safari */
   box-shadow: 0 2px 5px rgba(224, 81, 73, 0.2); /* Red-tinged shadow */
