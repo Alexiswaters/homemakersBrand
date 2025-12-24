@@ -222,7 +222,7 @@ h1 {
 .list {
   font-size: 1rem;
   color: #252323;
-  list-style-position: inside; /* Ensure bullets are inside the list */
+  list-style-position: outside;
   line-height: 150%;
   padding-left: 0; /* Remove default padding */
   margin-left: 0; /* Remove default margin */
@@ -235,7 +235,7 @@ h1 {
 }
 
 p {
-  max-width: 40vw;
+  max-width: 50%;
   line-height: 150%;
 }
 @media (max-width: 600px) {
@@ -292,7 +292,7 @@ h3{
     color: #252323; /* Text color for selected */
     text-decoration: underline;
     text-underline-offset: 3px;
-    border: 1.5px solid #252323; /* Updated from e0e0e0 */
+    border: 1.5px solid #998F8F; /* Updated from e0e0e0 */
 }
 
 /* Hide the default radio buttons */
