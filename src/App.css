@@ -63,7 +63,7 @@ body{
   align-items: center;
   position: relative;
   transition: transform 0.2s, box-shadow 0.3s;
-  border: 1.5px solid #F8D4D2;
+  border: 1.5px solid #CBC3C2;
   border-radius: 5px;
   flex: 1 1 360px;
   background-color: #F0EBE6; /* 70% transparent background */
@@ -186,7 +186,7 @@ body{
     align-items: center;
     justify-content: center;
     flex: 1;
-    border-top: 1px solid #F8D4D2;
+    border-top: 1px solid #CBC3C2;
     border-bottom: none;
     border-left: 1.5px #F0EBE6;
     border-right: none;
@@ -231,7 +231,6 @@ h1 {
 /* If you want a small indent but not as large as the default */
 .list li {
   padding-left: 10px; /* Adjust this value to control the indent */
-  text-indent: -10px; /* This creates a hanging indent for the bullet */
   margin-left: 10px; /* Small left margin */
 }
 
@@ -239,7 +238,11 @@ p {
   max-width: 40vw;
   line-height: 150%;
 }
-
+@media (max-width: 600px) {
+  p {
+    max-width: 100%;
+  }
+}
 h3{
   font-size: 2rem;
   font-weight: bold;
@@ -285,11 +288,11 @@ h3{
 
 /* Styles for the selected state */
 .custom-radio.selected {
-    background-color: #f3f1f1; /* Background color for selected */
+    background-color: #F0EBE6; /* Background color for selected */
     color: #252323; /* Text color for selected */
     text-decoration: underline;
     text-underline-offset: 3px;
-    border: 1.5px solid #F8D4D2; /* Updated from e0e0e0 */
+    border: 1.5px solid #252323; /* Updated from e0e0e0 */
 }
 
 /* Hide the default radio buttons */
@@ -315,12 +318,12 @@ h3{
 /* Remove all borders from download buttons */
 .download-button-container .button {
     border: none;
-    border-top: 1px solid #F8D4D2;
+    border-top: 1px solid #CBC3C2;
 }
 
 /* First button (PNG) */
 .download-button-container .button:nth-child(1) {
-    border-right: 1.5px solid #F8D4D2;
+    border-right: 1.5px solid #CBC3C2;
     border-bottom-left-radius: 7px;
 }
 
@@ -333,7 +336,7 @@ h3{
 
 /* Second button (SVG) */
 .download-button-container .button:nth-child(2) {
-    border-right: 1.5px solid #F8D4D2;
+    border-right: 1.5px solid #CBC3C2;
 }
 .download-button-container .button:nth-child(2):hover {
   border-right: 1.5px solid #252323;
@@ -365,7 +368,7 @@ h3{
   align-items: center;
   align-self: stretch;
   margin-bottom: 0;
-  border-top: 1.5px solid #F8D4D2;
+  border-top: 1.5px solid #CBC3C2;
   border-bottom: none;
 }
 
@@ -374,7 +377,7 @@ h3{
   display: flex;
   flex: 1;
   padding: 11px;
-  border-right: 1.5px solid #F8D4D2;
+  border-right: 1.5px solid #CBC3C2;
 }
 .color-container {
   display: flex;
@@ -486,7 +489,7 @@ h3{
     flex: 1;
     width: 100%;
     padding: 15px; /* Increased padding for larger search bar */
-    border: 1.5px solid #F8D4D2;
+    border: 1.5px solid #CBC3C2;
     border-radius: 5px;
     font-family: 'Fira Mono', monospace;
     font-size: 0.9rem;
@@ -517,7 +520,7 @@ h3{
 /* Enhanced styling for sort select */
 .sort-select {
     padding: 15px; /* Equal padding for the sort select */
-    border: 1.5px solid #F8D4D2;
+    border: 1.5px solid #CBC3C2;
     border-radius: 5px;
     font-family: 'Fira Mono', monospace;
     font-size: 0.9rem;
