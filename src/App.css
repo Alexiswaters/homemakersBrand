@@ -232,6 +232,10 @@ h1 {
 .list li {
   padding-left: 10px; /* Adjust this value to control the indent */
   margin-left: 10px; /* Small left margin */
+  padding-bottom: 10px;
+}
+.list:nth-child(5) li {
+  padding-bottom: 0px;
 }
 
 p {
