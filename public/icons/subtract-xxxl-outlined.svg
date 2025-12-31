@@ -1,9 +1,9 @@
 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_209_376)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2659 22.025C13.2659 21.6108 13.6017 21.275 14.0159 21.275L30.0341 21.275C30.4483 21.275 30.7841 21.6108 30.7841 22.025C30.7841 22.4392 30.4483 22.775 30.0341 22.775L14.0159 22.775C13.6017 22.775 13.2659 22.4392 13.2659 22.025Z" fill="#252323"/>
+<g clip-path="url(#clip0_1973_12801)">
+<path d="M38.5 22H22H5.5" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
 </g>
 <defs>
-<clipPath id="clip0_209_376">
+<clipPath id="clip0_1973_12801">
 <rect width="44" height="44" fill="white"/>
 </clipPath>
 </defs>
