@@ -132,6 +132,7 @@ const App = () => {
         { name: 'heatMassage', dateAdded: '2025-12-1' },
         { name: 'heat', dateAdded: '2025-12-1' },
         { name: 'dropDownTray', dateAdded: '2025-12-1' },
+        { name: 'whisperingSeats', dateAdded: '2026-01-26' },
         // Add more icons as needed
     ], []);
 
