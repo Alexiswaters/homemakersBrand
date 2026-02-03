@@ -99,6 +99,12 @@
     "l",
     "m"
   ],
+  "bluetooth": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
   "business": [
     "xxxl",
     "xl",
@@ -194,6 +200,14 @@
     "xl",
     "l",
     "m"
+  ],
+  "copy": [
+    "xxxl",
+    "xl",
+    "l",
+    "m",
+    "s",
+    "x1"
   ],
   "creditCard": [
     "xxxl",
@@ -776,6 +790,9 @@
     "xl",
     "l",
     "m"
+  ],
+  "whisperingSeats": [
+    "xxxl"
   ],
   "width": [
     "xxxl",

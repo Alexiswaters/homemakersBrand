@@ -134,6 +134,7 @@ const App = () => {
         { name: 'dropDownTray', dateAdded: '2025-12-1' },
         { name: 'whisperingSeats', dateAdded: '2026-01-26' },
         { name: 'bluetooth', dateAdded: '2026-01-27' },
+        { name: 'copy', dateAdded: '2026-02-03' },
         // Add more icons as needed
     ], []);
 
