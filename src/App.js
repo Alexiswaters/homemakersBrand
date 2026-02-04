@@ -135,6 +135,7 @@ const App = () => {
         { name: 'whisperingSeats', dateAdded: '2026-01-26' },
         { name: 'bluetooth', dateAdded: '2026-01-27' },
         { name: 'copy', dateAdded: '2026-02-03' },
+        { name: 'caster', dateAdded: '2026-02-04' },
         // Add more icons as needed
     ], []);
 
