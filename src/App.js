@@ -136,6 +136,7 @@ const App = () => {
         { name: 'bluetooth', dateAdded: '2026-01-27' },
         { name: 'copy', dateAdded: '2026-02-03' },
         { name: 'caster', dateAdded: '2026-02-04' },
+        { name: 'liftTop', dateAdded: '2026-02-05' },
         // Add more icons as needed
     ], []);
 
