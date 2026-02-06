@@ -417,6 +417,10 @@
     "l",
     "m"
   ],
+  "hiddenDrawer": [
+    "xxxl",
+    "xl"
+  ],
   "homeDecorLamp": [
     "xxxl",
     "xl",
@@ -579,6 +583,12 @@
     "xl",
     "l"
   ],
+  "measure": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
   "medium": [
     "xxxl",
     "xl",
@@ -658,6 +668,12 @@
     "m"
   ],
   "recentlyViewed": [
+    "xxxl",
+    "xl",
+    "l",
+    "m"
+  ],
+  "rocking": [
     "xxxl",
     "xl",
     "l",
