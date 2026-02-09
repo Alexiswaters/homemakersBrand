@@ -41,8 +41,6 @@ const IconCard = ({ iconName }) => {
         fetchAvailableSizes();
     }, [iconName, size]);
 
-    const svgFileName = size ? `${iconName}-${size}-${style}.svg` : '';
-    
     // Check if filled style is available
     useEffect(() => {
         const checkFilledAvailability = async () => {
@@ -70,24 +68,27 @@ const IconCard = ({ iconName }) => {
         
         const fetchSvg = async () => {
             try {
-                const response = await fetch(`/icons/${svgFileName}`);
+                const fileName = `${iconName}-${size}-${style}.svg`;
+                const response = await fetch(`/icons/${fileName}`);
                 if (!response.ok) {
                     throw new Error(`Failed to fetch SVG: ${response.status}`);
                 }
                 
                 let svgText = await response.text();
                 
+                // Always start with the original SVG and apply color replacement
                 // Replace specific hex codes based on color selection
                 if (color === 'white') {
-                    // Replace black (#252323) with white (#FFFEFC)
-                    svgText = svgText.replace(/#252323/g, '#FFFEFC');
-                    svgText = svgText.replace(/stroke="#252323"/g, 'stroke="#FFFEFC"');
-                    svgText = svgText.replace(/fill="#252323"/g, 'fill="#FFFEFC"');
+                    // Replace black (#332A2A) with white (#FFFEFC) - handle all variations
+                    // Use case-insensitive and handle both single and double quotes, or no quotes
+                    svgText = svgText.replace(/#332A2A/gi, '#FFFEFC');
+                    svgText = svgText.replace(/stroke=["']?#332A2A["']?/gi, 'stroke="#FFFEFC"');
+                    svgText = svgText.replace(/fill=["']?#332A2A["']?/gi, 'fill="#FFFEFC"');
                 } else {
-                    // Replace white (#FFFEFC) with black (#252323)
-                    svgText = svgText.replace(/#FFFEFC/g, '#252323');
-                    svgText = svgText.replace(/stroke="#FFFEFC"/g, 'stroke="#252323"');
-                    svgText = svgText.replace(/fill="#FFFEFC"/g, 'fill="#252323"');
+                    // Replace white (#FFFEFC) with black (#332A2A) - handle all variations
+                    svgText = svgText.replace(/#FFFEFC/gi, '#332A2A');
+                    svgText = svgText.replace(/stroke=["']?#FFFEFC["']?/gi, 'stroke="#332A2A"');
+                    svgText = svgText.replace(/fill=["']?#FFFEFC["']?/gi, 'fill="#332A2A"');
                 }
                 
                 if (isMounted) {
@@ -103,7 +104,7 @@ const IconCard = ({ iconName }) => {
         return () => {
             isMounted = false;
         };
-    }, [iconName, svgFileName, color, size]);
+    }, [iconName, size, style, color]); // Removed svgFileName, added style directly
 
     const downloadPNG = (event) => {
         event.preventDefault();
@@ -180,7 +181,7 @@ const IconCard = ({ iconName }) => {
         <div className="icon-card" ref={iconRef}>
             <div 
                 className="icon-image-container" 
-                style={{ backgroundColor: color === 'white' ? '#252323' : 'transparent' }}
+                style={{ backgroundColor: color === 'white' ? '#332A2A' : 'transparent' }}
             >
                 {svgContent ? (
                     <div 
