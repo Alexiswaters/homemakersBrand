@@ -141,6 +141,7 @@ const App = () => {
         { name: 'rocking', dateAdded: '2026-02-06' },
         { name: 'ballBearingDrawerGlides', dateAdded: '2026-02-06' },
         { name: 'height', dateAdded: '2026-02-06' },
+        { name: 'measure', dateAdded: '2026-02-06' },
         // Add more icons as needed
     ], []);
 
