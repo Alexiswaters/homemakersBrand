@@ -144,6 +144,7 @@ const App = () => {
         { name: 'measure', dateAdded: '2026-02-06' },
         { name: 'sparkle', dateAdded: '2026-02-06' },
         { name: 'house', dateAdded: '2026-03-17' },
+        { name: 'pickUp', dateAdded: '2026-03-17' },
         // Add more icons as needed
     ], []);
 
